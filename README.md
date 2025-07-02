@@ -1,6 +1,6 @@
 # Scrappy Docs
 
-Scrappy Docs is a lightweight, developer-friendly project designed to help you quickly organize, search, and manage your documentation or notes. Built for speed and simplicity, Scrappy Docs is ideal for personal knowledge bases, project wikis, or team documentation.
+Scrappy Docs is a lightweight, developer-friendly project designed to help you quickly organize, search, and manage your documentation or notes using the Scrapy Python library. Built for speed and simplicity, Scrappy Docs is ideal for personal knowledge bases, project wikis, or team documentation.
 
 ## Features
 
@@ -12,22 +12,21 @@ Scrappy Docs is a lightweight, developer-friendly project designed to help you q
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/scrappy-docs.git
-   cd scrappy-docs
+   git clone https://github.com/Koded0214h/Scrappy-Documentation.git
+   cd Scrappy-Documentation
    ```
 
 2. **Install dependencies:**
    ```bash
-   # Example for Node.js projects
-   npm install
+   pip install -r requirements.txt
    ```
 
-3. **Run the project:**
+3. **Run your Scrapy spiders:**
    ```bash
-   npm start
+   scrapy crawl <spider_name>
    ```
 
 ## Usage
 
-- Add your documentation files in the appropriate directory.
-- Use the built-in search and organization features to manage your docs.
+- Add your Scrapy spiders in the appropriate directory.
+- Use Scrapy commands to manage and run your crawlers.
